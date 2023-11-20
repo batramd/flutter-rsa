@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'dev.jerson.fat_rsa'
+
     compileSdkVersion 31
 
     defaultConfig {
